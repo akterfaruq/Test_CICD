@@ -1,0 +1,22 @@
+name: Git Actions CI/CD
+
+on:
+  push:
+    branches:
+      - master
+
+  pull_request:
+    branches:
+      - master
+
+
+jobs:
+  read_hello_file:
+    runs-on: [Osta_test, windows, my-runner]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Read hello.txt
+        run: cat hello.txt
+        

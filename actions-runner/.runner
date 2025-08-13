@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Ostad",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus5.actions.githubusercontent.com/0sqZTqVSg0zooSfnaDeHY8fgt0xH8ilQMMGAhkeC8QvnjEttlU/",
+  "gitHubUrl": "https://github.com/akterfaruq/Test_CICD",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
