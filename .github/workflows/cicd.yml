@@ -12,11 +12,11 @@ on:
 
 jobs:
   read_hello_file:
-    runs-on: [Osta_test, windows, my-runner]
+    runs-on: [self-hosted, Windows, X64, Osta_test]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Read hello.txt
-        run: cat hello.txt
+        run: type hello.txt
         
